@@ -1,0 +1,6 @@
+{
+  "name": "متجر حنان للعسل الفاخر",
+  "description": "متجر حنان لبيع أجود أنواع العسل الطبيعي في المملكة العربية السعودية بالأسعار الحقيقية، مع مواصفات كل نوع وتجارب العملاء الحقيقية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

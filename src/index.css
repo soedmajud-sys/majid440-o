@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Custom scrollbar for drawers and modals */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f0eb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4a359;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b58133;
+}
